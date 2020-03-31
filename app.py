@@ -12,7 +12,7 @@ net = torch.jit.load('my_model.zip')
 
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return "Hello World..."
 
 
 @app.route("/predict", methods=['POST'])
